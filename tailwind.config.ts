@@ -19,7 +19,18 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				display: ['Pacifico', 'cursive'],
+				hand: ['Caveat', 'cursive'],
+				rubik: ['Rubik', 'sans-serif']
+			},
 			colors: {
+				candy: 'hsl(var(--candy-pink))',
+				bubble: 'hsl(var(--bubble-blue))',
+				sun: 'hsl(var(--sun-yellow))',
+				grass: 'hsl(var(--grass-green))',
+				grape: 'hsl(var(--grape-purple))',
+				pop: 'hsl(var(--orange-pop))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
